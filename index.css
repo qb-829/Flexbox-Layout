@@ -1,0 +1,47 @@
+/* The first thing I want to do is
+change the background colors so that
+I can distinguish my divs. */
+
+/* then i'll go back and add flexbox
+elements to full-layout (display:flex) and adjust the
+box sizes of the inner divs */
+
+.full-layout {
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height:900px;
+}
+
+.layout {
+    display: flex;
+}
+
+.header {
+    background-color: blue;
+    align-self: flex-start;
+    width: 900px;
+}
+
+/* .side {
+    align-self: center;
+} */
+
+.sidebar-left {
+    background-color: yellow;
+    width: 300px;
+    height: 750px;
+}
+
+.sidebar-right {
+    background-color: pink;
+    width: 600px;
+    height: 750px;
+}
+
+.footer {
+    background-color: blueviolet;
+    align-self: flex-end;
+    width: 900px
+}
