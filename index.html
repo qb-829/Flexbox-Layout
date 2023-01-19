@@ -12,18 +12,35 @@
         <div class="header layout">
             <h1>Header</h1>
         </div>
-        <div class="sidebar-left layout side">
+        <div class="sidebar-left layout">
             <p>This sidebar is 300px. It is also Column 1. 
             Its content is different from Column 2.</p>
         </div>
-        <div class="sidebar-right layout side">
-            <p>This is the right sidebar. It takes up the space
+        <div class="sidebar-right layout">
+            <div class="layout">
+                <p>This is the right sidebar. It takes up the space
                 remaining from the left side bar. It has the same 
                 height as the left side bar. And is just as good, but 
                 better. It has a little more content as well. What do
                 you think of this color? I really think it suits me.
                 Don't you?
-            </p>
+                </p>
+            </div>
+            <!-- /* I attempted to make a flexbox within a box
+but ran out of time to troubleshoot why I
+couldn't spread the boxes along the bottom of
+the right sidebar. */ -->
+            <div class="layout2">
+                <div class="inner1">
+                1
+                </div>
+                <div class="inner2">
+                2
+                </div>
+                <div class="inner3">
+                3
+                </div>
+            </div>
         </div>
         <div class="footer layout">
             <p>FOOTER</p>

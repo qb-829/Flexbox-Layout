@@ -24,10 +24,6 @@ box sizes of the inner divs */
     width: 900px;
 }
 
-/* .side {
-    align-self: center;
-} */
-
 .sidebar-left {
     background-color: yellow;
     width: 300px;
@@ -44,4 +40,32 @@ box sizes of the inner divs */
     background-color: blueviolet;
     align-self: flex-end;
     width: 900px
+}
+
+/* I attempted to make a flexbox within a box
+but ran out of time to troubleshoot why I
+couldn't spread the boxes along the bottom of
+the right sidebar. */
+.layout2 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.inner1 {
+    background-color: lavender;
+    align-self: flex-end;
+    width: 200px;
+}
+
+.inner2 {
+    background-color: lavenderblush;
+    align-self: flex-end;
+    width: 200px;
+}
+
+.inner3 {
+    background-color: aliceblue;
+    align-self: flex-end;
+    width: 200px;
 }
